@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+form {
+    display: grid;
+    width: 300px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+#display {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.item {
+    border: 2px solid black;
+}
+input{
+    width: 100px;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
